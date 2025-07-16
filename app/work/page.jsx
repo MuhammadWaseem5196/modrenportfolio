@@ -13,42 +13,42 @@ import Workslidebtn from "@/components/Workslidebtn";
 const Projects  = [
     {
         num : "01",
-        category : "frontend",
+        category : "Frontend of E-Commerce Website",
         title : "Project 1",
-        description : "this my description",
+        description : "I built a full-stack eCommerce website as my first project using Next.js for the frontend and Sanity CMS as the backend to manage products and content dynamically.",
         stacks:[{name: "HTML5"}, {name:"CCS3 & Tailwind "} ,{name:"TypeScript"} ],
-        image : "/waseem12345.png",
-        Link : ""
+        image : "/image1.png",
+        Link : "https://hackathone-2024.vercel.app/"
 
     },
     {
         num : "02",
         category : "frontend",
-        title : "Project 2",
-        description : "this my description",
+        title : "Landing Page of Velog",
+        description : "This project was originally designed in Figma and then fully developed into a real-world application using Next.js and Tailwind CSS.",
         stacks:[{name: "HTML5"}, {name:"CCS3 & Tailwind "} ,{name:"TypeScript"} ],
-        image : "",
-        Link : ""
+        image : "/image2.png",
+        Link : "https://sigma-portfolio-iota.vercel.app/"
 
     },
     {
         num : "03",
-        category : "frontend",
+        category : "E-Commerce Web-Store",
         title : "Project 3",
-        description : "this my description",
+        description : "Frontend development using next.js tailwind and typescript",
         stacks:[{name: "HTML5"}, {name:"CCS3 & Tailwind "} ,{name:"TypeScript"} ],
-        image : "",
-        Link : ""
+        image : "/image3.png",
+        Link : "https://hackathone-ux-ui-3e9s-f27yc8p69.vercel.app/"
 
     },
     {
         num : "04",
         category : "frontend",
         title : "Project 4",
-        description : "this my description",
+        description : "This is Rent a car project frontend developed with tailwind and next.js figma",
         stacks:[{name: "HTML5"}, {name:"CCS3 & Tailwind "} ,{name:"TypeScript"} ],
-        image : "",
-        Link : ""
+        image : "/image4.png",
+        Link : "https://figma-hackathon-eta-eight.vercel.app/"
 
     },
     
@@ -82,7 +82,7 @@ const Work= ()=>{
                             </ul>
                             <div className="border border-white/20"></div>
                             <div className="flex items-center gap-4">
-                                <Link href={project.Link}>
+                                <Link href={project.Link} target="_blank">
                                 <TooltipProvider delayDuration={100}>
                                     <Tooltip>
                                         <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">

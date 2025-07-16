@@ -53,9 +53,12 @@ const Contact = ()=>{
                             <SelectContent>
                                 <SelectGroup>
                                     <SelectLabel>Select a Service</SelectLabel>
-                                    <SelectItem value="est">Web-Development</SelectItem>
-                                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                                    <SelectItem value="mst">Logo Design</SelectItem>
+                                    <SelectItem value="est">Modern Portfolio Website</SelectItem>
+                                    <SelectItem value="cst">Digital Store E-Commerce</SelectItem>
+                                    <SelectItem value="mst">Vlogging & Blogging Page</SelectItem>
+                                    <SelectItem value="mt">Business or Company Website</SelectItem>
+                                    <SelectItem value="st">Backend with Sanity CMS</SelectItem>
+                                    <SelectItem value="ms">Landing Pages for Campaigns</SelectItem>
                                 </SelectGroup>
                             </SelectContent>
                          </Select>

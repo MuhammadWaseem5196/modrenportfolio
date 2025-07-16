@@ -1,7 +1,7 @@
 "use client"
 import {Button} from "@/components/ui/button";
 import {FiDownload} from "react-icons/fi"
-import Solve from "@/components/Socials";
+import Solve from "@/components/Socials"; 
 import Photos from "@/components/photo";
 import States from "@/components/States"
 import { Typewriter } from "react-simple-typewriter";
@@ -20,14 +20,13 @@ export default function Home() {
             <span className="text-xl">
               <Typewriter
                words={[
-                    "Web Developer",
-                    "Agentic AI Developer",
-                    "AI-Powered App Builder",
-                    "Robotics Enthusiast",
-                    "Creative Problem Solver",
-                    "Next.js Developer",
-                    "Full Stack Web-Developer",
-                    "Python Programmer",
+                    "Modern Portfolio Website",
+                    "Digital Store (E-Commerce)",
+                    "Vlogging & Blogging Page",
+                    "Business or Company Website",
+                    "Backend with Sanity CMS",
+                    "Landing Pages for Campaigns",
+                    "Mobile-Responsive Web Design",
                     
                   ]}
                   loop={true}
@@ -45,7 +44,7 @@ export default function Home() {
             </p>
             {/* button of socals */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button variant="outline" size="lg" className="flex uppercase items-center gap-2 " >
+              <Button  variant="outline" size="lg" className="flex uppercase items-center gap-2 " onClick={() => alert("📄 CV Can't Download For Now ")}>
                 <span>Downlaod CV</span>
                 <FiDownload className="text-xl"/>
               </Button>

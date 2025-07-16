@@ -4,37 +4,50 @@ import {BsArrowDownRight} from "react-icons/bs"
 import Link from "next/link"
 import { motion } from "framer-motion"
 const services = [
-    {
-        num:"01",
-        title:"Web-Developer",
-        Description:"A web developer designs and builds responsive websites and web apps using modern technologies to ensure speed, functionality, and great user experiences.",
-        href:""
-    },
-    {
-        num:"02",
-        title:"UX/UI Design",
-        Description:"A web developer designs and builds responsive websites and web apps using modern technologies to ensure speed, functionality, and great user experiences.",
-        href:""
-    },
-    {
-        num:"03",
-        title:"AI Agentic Developer ",
-        Description:"Aspiring AI Agentic Developer, learning to build intelligent agents that can reason, act, and interact using modern AI tools and frameworks.",
-        href:""
-    },
-    {
-        num:"04",
-        title:"Logo Desighn",
-        Description:"Aspiring Logo Designer, exploring the art of visual identity and brand expression through creative design.",
-        href:""
-    },
-    {
-        num:"05",
-        title:"Digital Marketer",
-        Description:"Aspiring Digital Marketer, learning strategies to boost online visibility and engagement.",
-        href:""
-    },
+  {
+    num: "01",
+    title: "Modern Portfolio Website",
+    Description: "I build professional, stylish portfolio websites to showcase personal or business projects with interactive and responsive design.",
+    href: ""
+  },
+  {
+    num: "02",
+    title: "Digital Store (E-Commerce)",
+    Description: "I develop fully functional e-commerce stores with smooth checkout, product filters, cart features, and backend integration.",
+    href: ""
+  },
+  {
+    num: "03",
+    title: "Vlogging & Blogging Page",
+    Description: "I create engaging vlogging and blogging platforms with clean UI, post categories, comment systems, and content management.",
+    href: ""
+  },
+  {
+    num: "04",
+    title: "Business or Company Website",
+    Description: "I design modern business websites with clear branding, services sections, and contact forms to help companies grow online.",
+    href: ""
+  },
+  {
+    num: "05",
+    title: "Backend with Sanity CMS",
+    Description: "I integrate headless CMS like Sanity for dynamic content management, allowing real-time updates without touching code.",
+    href: ""
+  },
+  {
+    num: "06",
+    title: "Landing Pages for Campaigns",
+    Description: "I build high-converting landing pages for marketing campaigns, product launches, and targeted promotions.",
+    href: ""
+  },
+  {
+    num: "07",
+    title: "Mobile-Responsive Web Design",
+    Description: "I ensure every project is fully mobile-optimized and responsive across all screen sizes for the best user experience.",
+    href: ""
+  }
 ]
+
 
 const Services = ()=>{
     return(
@@ -51,7 +64,7 @@ const Services = ()=>{
                         return <div key={index} className="flex-1 flex flex-col justify-center gap-6 group">
                             <div className="w-full flex justify-between items-center">
                                 <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500 ">{item.num}</div>
-                                <Link href={item.href} className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-cyan-500 transition-all duration-500 flex justify-center items-center hover:-rotate-45"><BsArrowDownRight className="text-primary text-3xl"/></Link>
+                              {/* <Link href={item.href} className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-cyan-500 transition-all duration-500 flex justify-center items-center hover:-rotate-45"><BsArrowDownRight className="text-primary text-3xl"/></Link> */}
 
                             </div>
                             <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{item.title}</h2>

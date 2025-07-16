@@ -83,7 +83,7 @@ const Education ={
         {
             Institution:"Governor-House Affiliate from Karachi University",
             Certification:"Agentic AI & Robotics",
-            Period:"2024 - Contiue"
+            Period:"2024 - Continue"
         },
         {
             Institution:"Governor-House Affiliate from Karachi University",
