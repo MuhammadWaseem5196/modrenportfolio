@@ -37,7 +37,7 @@ export default function Home() {
                   deleteSpeed={50}
             /></span>
             <h1 className="h1 mb-6">
-             <span className="xl:text-6xl ">I'm</span> <span className="xl:text-5xl text-cyan-400  text-right"style={{ fontFamily: "'Noto Nastaliq Urdu', serif", direction: "rtl" }}>السلام علیکم  </span>   <br /> <span className=" text-accent">Muhammad Waseem</span>
+             <span className="xl:text-6xl ">I&apos;m</span> <span className="xl:text-5xl text-cyan-400  text-right"style={{ fontFamily: "'Noto Nastaliq Urdu', serif", direction: "rtl" }}>السلام علیکم  </span>   <br /> <span className=" text-accent">Muhammad Waseem</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.
