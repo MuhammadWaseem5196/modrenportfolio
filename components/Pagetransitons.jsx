@@ -4,7 +4,7 @@ import { AnimatePresence , motion} from "framer-motion";
 import { usePathname } from "next/navigation";
 
 
-const Page = ({children})=>{
+const PageTransition = ({children})=>{
     const pathname = usePathname()
     return <AnimatePresence>
                             <div key={pathname}>
@@ -22,4 +22,4 @@ const Page = ({children})=>{
     </AnimatePresence>
 }
 
-export default Page;
+export default PageTransition;
