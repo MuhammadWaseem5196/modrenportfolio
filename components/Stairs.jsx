@@ -37,7 +37,7 @@ const Stairs = ()=>{
                 delay:reverseindex(index) * 0.1,
 
             }}
-            className="w-full h-full relative bg-white"
+            className="w-full h-full relative bg-[#33cbfd]"
             />
             )
         })}

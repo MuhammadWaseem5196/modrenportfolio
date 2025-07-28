@@ -3,7 +3,7 @@ import "./globals.css";
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet" />
 
-
+import CVAgentPage from "./cv-agent/page";
 import Header from "@/components/Header";
 import PageTransition from "@/components/Pagetransitons";
 import Stairtransition from "@/components/StairTransition";
@@ -23,7 +23,8 @@ export default function RootLayout({ children }) {
       <body className={JetBrainsMono.variable}>
         <Header/>
         <Stairtransition/>
-        <PageTransition>{children}</PageTransition>
+        <CVAgentPage/>
+        <PageTransition>{children} </PageTransition>
               
         
        
