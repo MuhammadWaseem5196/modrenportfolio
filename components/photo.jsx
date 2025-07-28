@@ -21,7 +21,7 @@ const Photos = ()=>{
                 
                 className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-plus-lighter absolute rounded-full overflow-hidden  ">
                     <Image
-                     src="/waseem12345.png"
+                     src="/waseem12345.jpg"
                      priority
                      quality={100}
                      fill
@@ -41,7 +41,7 @@ const Photos = ()=>{
                     cx="253"
                     cy="253"
                     r="250"
-                    stroke="#00ff99"
+                    stroke="#33cbfd"
                     strokeWidth="6"
                     strokeLinecap="round"
                     strokeLinejoin="round"
